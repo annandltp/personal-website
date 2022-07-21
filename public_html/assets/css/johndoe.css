@@ -588,6 +588,7 @@ pre code {
 }
 
 .container-fluid {
+  height: 100%;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -4650,6 +4651,8 @@ input[type="button"].btn-block {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-right: 150px;
+  padding-left: 150px;
 }
 
 .navbar-toggler {
@@ -11608,13 +11611,40 @@ pre .code {
   background: rgba(242, 244, 247, 0.15);
 }
 
-.about-section {
-  border-bottom: 1px solid #dee2e6;
+html, body {
+  height: 100%;
 }
 
+.container-fluid {
+  border-bottom: 1px solid #dee2e6;
+  height: 100%;
+}
+
+.about-text{
+  padding-bottom: 20rem;
+  font-size: 2px;
+}
+
+
 .about-section .about-card {
+  text-align: center;
   padding: 60px;
-  border-right: 1px solid #dee2e6;
+}
+
+.who{
+  text-decoration: underline;
+}
+
+.font-weight-light-who{
+  padding-top: 20rem;
+  padding-bottom: 20px;
+}
+.font-weight-light .who {
+  padding-bottom: 1rem;
+}
+
+.lines{
+  padding-bottom: 2rem;
 }
 
 .about-section .about-card:last-child {
